@@ -6,7 +6,7 @@
       <class name="tests.BookHotelPageTest">
         <methods>
           <include name="setup"/>
-          <include name="testBookHotel" invocation-numbers="1"/>
+          <include name="testBookHotel"/>
         </methods>
       </class> <!-- tests.BookHotelPageTest -->
     </classes>

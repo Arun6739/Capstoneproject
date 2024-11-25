@@ -7,7 +7,6 @@ import org.openqa.selenium.support.ui.Select;
 public class SearchHotelPage {
     WebDriver driver;
 
-    // Locators
     private By locationDropdown = By.id("location");
     private By hotelDropdown = By.id("hotels");
     private By roomTypeDropdown = By.id("room_type");

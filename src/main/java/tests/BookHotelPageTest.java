@@ -41,7 +41,7 @@ public class BookHotelPageTest {
         loginPage.login(credentials[0], credentials[1]);
         Assert.assertTrue(loginPage.isLoginSuccessful(), "Login failed!");
 
-        searchHotelPage.searchHotels("Sydney", "Hotel Creek", "Standard", "1", "24/11/2024", "25/11/2024", "1", "0");
+        searchHotelPage.searchHotels("Sydney", "Hotel Creek", "Standard", "1", "24/12/2024", "25/12/2024", "1", "0");
         Assert.assertTrue(searchHotelPage.isSearchSuccessful(), "Hotel search failed!");
 
         selectHotelPage.selectHotelOption();
